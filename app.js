@@ -15,7 +15,7 @@ var Twitter = new twit({
 // find latest tweet according the query 'q' in params
 var retweet = function() {
     var params = {
-  //    q: '#Crypto #Cryptocurrency #blockchain',  // REQUIRED
+  //    q: '#Crypto #Cryptocurrency #blockchain',  // example if not taking varibale from process.env
         q: process.env.searchString,
         result_type: 'recent',
         lang: 'en'
