@@ -1,0 +1,34 @@
+{
+  "name": "twitter-bot-bootstrap-query",
+  "author": "Simon McCartney <simon@camnomis.com>",
+  "url": "https://github.com/camnomis",
+  "description": "A bot to automate various twitter functions",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "6.12.3"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.179.0",
+    "twit": "^2.2.9",
+    "unique-random-array": "^1.0.0"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "bot",
+    "nodejs",
+    "bot",
+    "retweet",
+    "Twitter"
+  ],
+  "bugs": {
+    "url": "https://github.com/camnomis/twitter-bot-bootstrap-query/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camnomis/twitter-bot-bootstrap-query.git"
+  },
+  "homepage": "https://github.com/camnomis/twitter-bot-bootstrap-query#readme"
+}
