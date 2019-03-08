@@ -30,7 +30,7 @@ var retweet = function() {
                 id: retweetId
             }, function(err, response) {
                 if (response) {
-                    console.log('Retweeted!!!');
+                    console.log('Retweeted sucessfully!!!');
                 }
                 // if there was an error while tweeting
                 if (err) {
